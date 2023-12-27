@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1", width="300">
+        <tr>
+            <th><center>용도</center></th>
+            <th><center>중량</center></th>
+            <th><center>개수</center></th>
+            <th><center>가격</center></th>
+            <!-- <th> table cell 글자 굵게 -->
+        </tr>
+        <tr> <!-- <tr> 테이블 만들 때 Row 먼저-->
+            <td><center>선물용</center></td>
+            <td> <center>3kg</center></td>
+            <td> <center>11~16과</center></td>
+            <td> <center>35,000원</center></td>
+        </tr>
+        <tr>
+            <td><center>선물용</center></td>
+            <td> <center>5kg</center></td>
+            <td> <center>18~26과</center></td>
+            <td> <center>52,000원</center></td>
+        </tr>
+        <tr>
+            <td><center>가정용</center></td>
+            <td> <center>3kg</center></td>
+            <td> <center>11~16과</center></td>
+            <td> <center>30,000원</center></td>
+        </tr>
+        <tr>
+            <td><center>가정용</center></td>
+            <td> <center>5kg</center></td>
+            <td> <center>18~26과</center></td>
+            <td> <center>47,000원</center></td>
+        </tr>
+    </table><hr>
+    <table border="1", width="300">
+        <tr>
+            <th><center>용도</center></th>
+            <th colspan="2"><center>중량 / 개수</center></th>
+            <th><center>가격</center></th>
+            <!-- <th> table cell 글자 굵게 -->
+        </tr>
+        <tr> <!-- <tr> 테이블 만들 때 Row 먼저-->
+            <td rowspan="2"><center>선물용</center></td>
+            <td> <center>3kg</center></td>
+            <td> <center>11~16과</center></td>
+            <td> <center>35,000원</center></td>
+        </tr>
+        <tr>
+            <td> <center>5kg</center></td>
+            <td> <center>18~26과</center></td>
+            <td> <center>52,000원</center></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><center>가정용</center></td>
+            <td> <center>3kg</center></td>
+            <td> <center>11~16과</center></td>
+            <td> <center>30,000원</center></td>
+        </tr>
+        <tr>
+            <td> <center>5kg</center></td>
+            <td> <center>18~26과</center></td>
+            <td> <center>47,000원</center></td>
+        </tr>
+    </table><hr>
+    <table border="1"style="width: 50%;">
+        <caption><strong>객실 현황</strong></caption>
+        <thead>
+            <tr>
+                <th><center>방 이름</center></th>
+                <th ><center>대상</center></th>
+                <th><center>크기</center></th>
+                <th><center>가격</center></th>
+                <!-- <th> table cell 글자 굵게 -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!-- <tr> 테이블 만들 때 Row 먼저-->
+                <td><center>유채방</center></td>
+                <td> <center>여성 도미토리</center></td>
+                <td rowspan="3"> <center>4인실</center></td>
+                <td rowspan="4"> <center>1인 20,000원</center></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><center>동백방</center></td>
+                <td> <center>동성 도미토리</center></td>
+            </tr>
+            <tr>
+                <td> <center>가족 1팀</center></td>
+            </tr>
+            <tr>
+                <td><center>천혜향방</center></td>
+                <td> <center>-</center></td>
+                <td> <center>2인실</center></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"><center>바깥채 전체를 렌트합니다.</center></td>
+            </tr>
+        </tfoot>
+    </table><hr>  
+    <h2>주차장</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="2" style="color: blueviolet;">제 1 주차장</th>
+            <td>11:00 ~ 16:00</td>
+            <td>자동차 전시</td>
+        </tr>
+        <tr>
+            <td>10:30 ~ 17:00</td>
+            <td rowspan="2" style="color:chocolate;">의류 전시</td>
+        </tr>
+        <tr>
+            <th>제 2 주차장</th>
+            <td rowspan="2" style="color: red;">10:30 ~ 17:30</td>
+        </tr>
+        <tr>
+            <th>제 3 주차장</th>
+            <td>악세서리 전시</td>
+        </tr>
+    </table>
+</body>
+</html>
