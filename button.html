@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3>라디오 </h3>
+        <h5>당신의 성별은 무엇입니까?</h5>
+        <input type="radio" name="gender" id="male" value="male"> 
+        <label for="male">남자</label>
+        <input type="radio" name="gender" id="female" value="female"> 
+        <label for="female">여자</label>
+        <!-- type이 radio일 때
+            name 값을 gender로 통일해야 단일 선택이 가능 -->
+        <br><br>
+        <h3>체크박스</h3>
+        <h5>현재 관심을 가지고 있는 학습 주제는 무엇입니까?</h5>
+        <input type="checkbox" name="subject" id="html5" value="html5">
+        <label for="html5">html5</label>
+        <input type="checkbox" name="subject" id="css" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="subject" id="js" value="js">
+        <label for="js">JS</label>
+        <br><br>
+        <h3>버튼</h3>
+        <button type="button" onclick="alert('버튼1 click')">버튼1</button>
+        <button type="button" onclick="alert('버튼2 click')">버튼2</button>
+        <input type="button" onclick="alert('input 타입 버튼 click')" 
+            value="input 타입 버튼">
+    </form>
+</body>
+</html>

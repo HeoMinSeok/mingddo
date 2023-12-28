@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>POST 방식</p>
+    <form action="image/dog.jpg" method="post">
+    <p>ID : <input type="text" name="id"></p>
+    <p>PW : <input type="text" name="password"></p>
+    <input type="submit" value="로그인">
+    <input type="reset" value="다시 작성">
+    </form> <hr>
+    <p>GET방식</p>
+    <form action="image/dog.jpg" method="get">
+        <p>ID : <input type="text" name="id"></p>
+        <p>PW : <input type="text" name="password"></p>
+        <input type="submit" value="로그인" name="id">
+        <input type="reset" value="다시 작성">
+    </form> <hr>
+    <p>TEXT 입력 공간 만들기</p>
+    <form action="image/dog.jpg" method="get"> 
+        <textarea name="intro" rows="5" cols="50" placeholder="텍스트를 입력해주세요."></textarea>       
+    </form> <hr>
+    <p>fieldset 태그 사용</p>
+    <form action="image/dog.jpg" method="post">
+        <fieldset>
+            <legend>로그인 페이지 1</legend>
+            <p> <label for="id"> ID</label> : 
+                <input type="text" id="id" name="id"></p>
+            <p>
+                <label for="password"> PW :</label>
+                <input type="text" id="password" name="password"></p>
+            <input type="submit" value="로그인">
+            <input type="reset" value="다시 작성">
+        </fieldset>
+    </form>
+    <form action="image/mic.jpg" method="post">
+        <fieldset>
+            <legend>로그인 페이지 2</legend>
+            <p>ID : <input type="text" name="id"></p>
+            <p>PW : <input type="text" name="password"></p>
+            <input type="submit" value="로그인" >
+            <input type="reset" value="다시 작성">
+        </fieldset>
+    </form>
+</body>
+</html>
